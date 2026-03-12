@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thusanang Communication Consulting</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f7fb;
+      color: #1f2d3d;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #16325c;
+      color: white;
+      padding: 15px 0;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .nav h2 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    .nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 15px;
+    }
+
+    .nav a:hover {
+      color: #f0b429;
+    }
+
+    .hero {
+      background: linear-gradient(to right, #16325c, #1f8a8a);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .hero img {
+      width: 480px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    .hero h1 {
+      margin: 10px 0;
+      font-size: 42px;
+    }
+
+    .hero h3 {
+      margin: 10px 0;
+      font-weight: normal;
+      color: #f0f4f8;
+    }
+
+    .hero p {
+      max-width: 750px;
+      margin: 20px auto;
+      font-size: 18px;
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #f0b429;
+      color: #16325c;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      margin-top: 15px;
+    }
+
+    .button:hover {
+      background-color: #ffd166;
+    }
+
+    section {
+      padding: 50px 20px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #16325c;
+      margin-bottom: 20px;
+    }
+
+    .about, .contact {
+      max-width: 900px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .two-column, .three-column, .four-column {
+      display: grid;
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .two-column {
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+
+    .three-column {
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+
+    .four-column {
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+
+    .card {
+      background-color: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    }
+
+    .card h3 {
+      color: #1f8a8a;
+      margin-top: 0;
+    }
+
+    .why-us ul {
+      max-width: 800px;
+      margin: auto;
+      padding-left: 20px;
+    }
+
+    .why-us li {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: #16325c;
+      color: white;
+      text-align: center;
+      padding: 25px 20px;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 768px) {
+      .nav {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .nav div {
+        margin-top: 10px;
+      }
+
+      .nav a {
+        display: inline-block;
+        margin: 8px 10px;
+      }
+
+      .hero h1 {
+        font-size: 32px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container nav">
+      <h2>Thusanang Communication Consulting</h2>
+      <div>
+        <a href="#about">About</a>
+        <a href="#missionvision">Mission & Vision</a>
+        <a href="#services">Services</a>
+        <a href="#approach">Approach</a>
+        <a href="#credibility">Credibility</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <img src="logo.png" alt="Thusanang Communication Consulting Logo">
+    <h1>Thusanang Communication Consulting</h1>
+    <h3>Building stronger organisations through better communication.</h3>
+    <p>
+      Helping organisations improve leadership communication, collaboration,
+      and organisational change through practical consulting solutions.
+    </p>
+    <a href="#contact" class="button">Get in Touch</a>
+  </section>
+
+  <section id="about">
+    <div class="container about">
+      <h2>About Us</h2>
+      <p>
+        Thusanang Communication Consulting is an organisational communication advisory firm
+        that helps organisations improve leadership communication, team collaboration,
+        and employee engagement. We support organisations facing communication challenges
+        during mergers, restructuring, and organisational change.
+      </p>
+    </div>
+  </section>
+
+  <section id="missionvision">
+    <div class="container">
+      <h2>Mission & Vision</h2>
+      <div class="two-column">
+        <div class="card">
+          <h3>Our Mission</h3>
+          <p>
+            To help organisations build effective communication systems that strengthen
+            collaboration, improve leadership interaction, and support sustainable
+            organisational performance.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Our Vision</h3>
+          <p>
+            To become a trusted communication consulting partner that empowers organisations
+            to transform communication challenges into opportunities for growth.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="four-column">
+        <div class="card">
+          <h3>Communication Diagnostics</h3>
+          <p>
+            We analyse communication breakdowns and identify their root causes.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Leadership Communication Training</h3>
+          <p>
+            We help leaders communicate clearly and manage workplace conflict effectively.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Cross-Cultural Communication Consulting</h3>
+          <p>
+            We support teams from different cultures to communicate and collaborate better.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Organisational Change Communication</h3>
+          <p>
+            We help organisations communicate mergers, restructuring, and change more effectively.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="approach">
+    <div class="container">
+      <h2>Our Approach</h2>
+      <div class="three-column">
+        <div class="card">
+          <h3>Diagnose</h3>
+          <p>
+            We assess communication challenges and identify key organisational issues.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Design</h3>
+          <p>
+            We create practical communication solutions, strategies, and interventions.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Develop</h3>
+          <p>
+            We equip leaders and teams with tools for clearer and more effective communication.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="credibility">
+    <div class="container">
+      <h2>The Three Cs of Credibility</h2>
+      <div class="three-column">
+        <div class="card">
+          <h3>Competence</h3>
+          <p>
+            Our work is grounded in communication theory, organisational research,
+            and practical consulting knowledge.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Character</h3>
+          <p>
+            We value honesty, professionalism, transparency, and ethical consulting practices.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Caring</h3>
+          <p>
+            We prioritise people-centred communication, employee voice, and inclusive collaboration.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="why-us">
+    <div class="container">
+      <h2>Why Organisations Choose Us</h2>
+      <ul>
+        <li>Evidence-based communication consulting</li>
+        <li>Practical leadership communication training</li>
+        <li>Improved teamwork and collaboration</li>
+        <li>Support during organisational change and restructuring</li>
+        <li>People-centred and professional communication solutions</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container contact">
+      <h2>Contact Us</h2>
+      <p><strong>Thusanang Communication Consulting</strong></p>
+      <p>Suite 204, Hatfield Plaza, 45 Hilda Street, Hatfield, Pretoria, 0028, South Africa</p>
+      <p>Phone: +27 12 362 4587</p>
+      <p>Fax: +27 12 362 4588</p>
+      <p>Email: info@thusanangconsulting.co.za</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Thusanang Communication Consulting</p>
+    <p>Building stronger organisations through better communication.</p>
+  </footer>
+
+</body>
+</html>
